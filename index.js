@@ -22,6 +22,6 @@ function calculatesFarePrice(start,destination) {
     return 0;
   }
   else {
-    return (distance-400)*0.025;
+    return (distance-400)*0.02;
   }
 }
