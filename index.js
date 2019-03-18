@@ -12,11 +12,11 @@ function distanceTravelledInFeet(a,b) {
 }
 function calculatesFarePrice(start,destination) {
   var distance = distanceTravelledInFeet(start,destination)
-  if (distance>=2500) {
-    return 'cannot travel that far'
+  if (distance >=2500) {
+    return 'cannot travel that far';
   }
  else if (distance>=2000) {
-    return 'charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)'
+    return 'charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)';
   }
   else if (distance<=400) {
     return 'charges 25 dollars for a distance over 2000 feet'
