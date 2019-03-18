@@ -21,7 +21,7 @@ function calculatesFarePrice(start,destination) {
   else if (distance=>2500) {
     return 'charges 25 dollars for a distance over 2000 feet'
   }
-  else (distance<2500); {
+  else (distance>=2500); {
     return 'cannot travel that far'
   }
 }
