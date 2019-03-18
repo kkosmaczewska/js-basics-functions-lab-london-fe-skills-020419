@@ -14,5 +14,5 @@ function calculatesFarePrice(start,destination) {
   if (Math.abs(start-destination)===0) {
     return 'gives customers a free sample'
   }
-  if Math.abs(start-destination)=
+  //if (Math.abs(start-destination)
 }
