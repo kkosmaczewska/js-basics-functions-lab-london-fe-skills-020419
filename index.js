@@ -12,7 +12,7 @@ function distanceTravelledInFeet(a,b) {
 }
 function calculatesFarePrice(start,destination) {
   var distance = distanceTravelledInFeet(start,destination)
-  if (distance===0) {
+  if (distance>=2500) {
     return 'gives customers a free sample'
   }
  else if (distance=>2000) {
