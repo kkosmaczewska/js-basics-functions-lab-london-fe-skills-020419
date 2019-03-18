@@ -11,7 +11,7 @@ function distanceTravelledInFeet(a,b) {
   return Math.abs(a-b)*264;
 }
 function calculatesFarePrice(start,destination) {
-  if Math.abs(start-destination)=0 {
+  if (Math.abs(start-destination)===0) {
     return 'gives customers a free sample'
   }
   if Math.abs(start-destination)=
