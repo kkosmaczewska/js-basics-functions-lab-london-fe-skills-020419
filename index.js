@@ -18,7 +18,7 @@ function calculatesFarePrice(start,destination) {
  else if (distance=>2000) {
     return 'charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)'
   }
-  else if (distance=>2500) {
+  else if (distance>=2500) {
     return 'charges 25 dollars for a distance over 2000 feet'
   }
   else {
