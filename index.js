@@ -15,6 +15,6 @@ function calculatesFarePrice(start,destination) {
     return 'gives customers a free sample'
   }
   if (400>Math.abs(start-destination)>2000) {
-    return ''
+    return 'charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)'
   }
 }
